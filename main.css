@@ -1,11 +1,27 @@
-html {
-  background-color: #bcf3e5;
+html{
+  /*background: rgb(249, 249, 249);*/
+  background: rgb(255, 255, 255);
 }
 
-nav{
-  background-color: #f48fb1 ;
+.mainNav{
+  width: 15%;
 }
 
+nav ul{
+  list-style-type: none;
+  padding-left: 0px;
+  height: 40px;
+  width: 300px;
+  line-height: 40px;
+  text-align: center;
+}
+
+nav ul li:hover{
+  /*background: rgb(239, 126, 160);*/
+  /*background: rgb(167, 187, 217);*/
+  background: rgb(238, 53, 146);
+}
 nav ul a{
-  color: #bcf3e5;
+  color: black;
+  text-decoration: none;
 }
