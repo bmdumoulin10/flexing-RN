@@ -1,5 +1,121 @@
 html{
-  /*background: rgb(249, 249, 249);*/
+  /*background: rgb(239, 126, 160);*/
+  background: #f3eddf;
+}
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF EIGHT  */
+.span_8_of_8 {
+	width: 100%;
+}
+
+.span_7_of_8 {
+  	width: 87.3%;
+}
+
+.span_6_of_8 {
+  	width: 74.6%;
+}
+
+.span_5_of_8 {
+  	width: 61.9%;
+}
+
+.span_4_of_8 {
+  	width: 49.2%;
+}
+
+.span_3_of_8 {
+  	width: 36.5%;
+}
+
+.span_2_of_8 {
+  	width: 23.8%;
+}
+
+.span_1_of_8 {
+  	width: 11.1%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_8, .span_2_of_8, .span_3_of_8, .span_4_of_8, .span_5_of_8, .span_6_of_8, .span_7_of_8, .span_8_of_8 { width: 100%; }
+}
+
+.navBar{
+  height: 50px;
+}
+
+.nav{
+  text-align: center;
+}
+
+.navLinks{
+  text-decoration: none;
+  color: slategray;
+  font-weight: bold;
+}
+
+.navLinks:hover{
+  color: rgb(239, 126, 160);
+}
+
+.midSection{
+  background: lightblue;
+  border: 3px solid lightcyan;
+  border-radius: 20px;
+}
+
+.pics{
+  margin-left: 0;
+  text-align: center;
+}
+
+form{
+  background: lightblue;
+  border-radius: 20px;
+  border: 3px solid lightcyan;
+}
+
+.form{
+  text-align: center;
+  margin-top: 10px;
+}
+
+input{
+    height: 25px;
+    font-size: 16px;
+}
+
+button{
+  background: rgb(239, 126, 160);
+  height: 40px;
+  border: 0px;
+  border-radius: 5px;
+}
+/*html{
+  background: lightblue;
   background: rgb(255, 255, 255);
 }
 
@@ -17,11 +133,11 @@ nav ul{
 }
 
 nav ul li:hover{
-  /*background: rgb(239, 126, 160);*/
-  /*background: rgb(167, 187, 217);*/
+  background: rgb(239, 126, 160);
+  background: rgb(167, 187, 217);
   background: rgb(238, 53, 146);
 }
 nav ul a{
   color: black;
   text-decoration: none;
-}
+}*/
