@@ -6,6 +6,10 @@
   background: rgb(233,78,118);
 }
 
+.started:hover{
+  background: grey;
+}
+
 .button-collapse {
   color: #26a69a;
 }

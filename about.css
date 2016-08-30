@@ -1,0 +1,12 @@
+
+@media only screen and (max-width: 768px) {
+    html {
+        background-color: #191d20;
+    }
+}
+
+body{
+  background-image: url('images/homeFitness.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
