@@ -5,6 +5,8 @@
     <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
     <!-- Materialize CSS CDNJS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Personal CSS  -->
     <link rel="stylesheet" href="main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -13,21 +15,49 @@
 
   <body>
     <header>
+      <!-- Dropdown menu -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!" class='black-text'>Shakeology</a></li>
+        <!-- <li><a href="#!">Pre-Workout</a></li>
+        <li><a href="#!">Recovery</a></li>
+        <li><a href="#!">Recharge</a></li>
+        <li><a href="#!">Hydrate</a></li>
+        <li><a href="#!">Creatine</a></li> -->
+        <li><a href="#!" class='black-text'>Beachbody Performance</a></li>
+        <li><a href="#!" class='black-text'>3-Day Refresh</a></li>
+        <li><a href="#!" class='black-text'>Ultimate Reset</a></li>
+      </ul>
 
+      <!-- Sidenav -->
+      <ul id="slide-out" class="side-nav">
+        <li><div>
+          <img src="images/heartLogo300.png">
+        </div></li>
+        <li><a href="#!" class='pink-text'>Home</a></li>
+        <li><a href="#!" class='pink-text'>About</a></li>
+        <li><a href="#!" class='pink-text'>Programs</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button pink-text" href="#!" data-activates="dropdown1">Products<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="#!" class='pink-text'>Coaching</a></li>
+        <li><a href="#!" class='pink-text'>Successes</a></li>
+        <li><a href="#!" class='pink-text'>Recipes</a></li>
+        <li><a href="#!" class='pink-text'>Calendar</a></li>
+      </ul>
     </header>
 
     <main>
 
       <div id="index-banner" class="parallax-container">
+        <a href="#" data-activates="slide-out" class="button-collapse btn-large waves-effect waves-light white-text started">menu</a>
         <div class="section no-pad-bot">
           <div class="container">
             <br><br>
-            <h1 class="header center teal-text text-lighten-2">Team FlexingRN</h1>
+            <h1 class="header center title">Team FlexingRN</h1>
             <div class="row center">
               <h5 class="header col s12 light">Take responsibility for your health and strive to reach your fitness goals</h5>
             </div>
             <div class="row center">
-              <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+              <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light started">Get Started</a>
             </div>
             <br><br>
 
@@ -44,7 +74,7 @@
           <div class="row">
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">Get Fit</i></h2>
+                <h2 class="center title"><i>Get Fit</i></h2>
                 <h5 class="center">Be the Best You!</h5>
 
                 <p class="light">Whether you are in shape, out of shape, male, or female, there is a workout program that fits you. In as little as 20 minutes per day you can start your path to a healthier you. What are you waiting for? </p>
@@ -53,16 +83,16 @@
 
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">Get Support</i></h2>
+                <h2 class="center title"><i>Get Support</i></h2>
                 <h5 class="center">You're not alone!</h5>
 
-                <p class="light">Making time for you can be tough. By utilizing your personal coach, you will have a network of people just like you to share experiences, keep you motivated, and learn from.</p>
+                <p class="light">Reaching your goals alone can be tough. By utilizing your personal coach, you will have a network of people just like you to share experiences, keep you motivated, and learn from. Join a challenge group today to get that extra support.</p>
               </div>
             </div>
 
             <div class="col s12 m4">
               <div class="icon-block">
-                <h2 class="center brown-text"><i class="material-icons">Get Paid</i></h2>
+                <h2 class="center title"><i>Get Paid</i></h2>
                 <h5 class="center">Help others get healthy!</h5>
 
                 <p class="light">Become a Beachbody coach and help others that have the same hurdles as you reach thir goals too. Grow your healthy network and your bank account at the same time. Request more information today.</p>
@@ -104,7 +134,7 @@
         <div class="section no-pad-bot">
           <div class="container">
             <div class="row center">
-              <h5 class="header col s12 light">Most imprtantly, LOVE YOU for YOU</h5>
+              <h5 class="header col s12 light">MOST IMPORTANTLY, LOVE YOU FOR YOU</h5>
             </div>
           </div>
         </div>
@@ -122,6 +152,12 @@
       $(document).ready(function(){
         $('.parallax').parallax();
       });
+    </script>
+    <script type="text/javascript">
+      $('.button-collapse').sideNav({
+          menuWidth: 300,
+        }
+      );
     </script>
   </body>
 
