@@ -1,0 +1,12 @@
+@media only screen and (max-width: 768px) {
+    html {
+        background-color: #393939;
+    }
+}
+
+body{
+  background-image: url('images/roadToSuccess.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
