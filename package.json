@@ -1,0 +1,39 @@
+{
+  "name": "flexing-rn",
+  "version": "1.0.0",
+  "description": "beachbody coach site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmdumoulin10/flexing-RN.git"
+  },
+  "keywords": [
+    "fitness",
+    "home",
+    "workouts",
+    "healthy",
+    "lifestyle",
+    "clean",
+    "eating",
+    "hard",
+    "work",
+    "weight",
+    "loss",
+    "diets",
+    "lose",
+    "weight"
+  ],
+  "author": "brian dumoulin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmdumoulin10/flexing-RN/issues"
+  },
+  "homepage": "https://github.com/bmdumoulin10/flexing-RN#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

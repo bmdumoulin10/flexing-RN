@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
     <!-- Materialize CSS CDNJS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Personal CSS  -->
     <link rel="stylesheet" href="main.css">
+    <!-- Setting the viewport equal to the device/screen size for optimal responsiveness -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Team Flexing RN</title>
   </head>
@@ -148,19 +147,25 @@
     <footer>
 
     </footer>
+    <!-- jQuery -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Materialize JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <!-- Initializing the parallax feature for scrolling -->
     <script type="text/javascript">
       $(document).ready(function(){
         $('.parallax').parallax();
       });
     </script>
+    <!-- Initializing the SideNav -->
     <script type="text/javascript">
       $('.button-collapse').sideNav({
           menuWidth: 300,
         }
       );
     </script>
+    <!-- Server -->
+    <script rel='javascript' src='./server.js'></script>
   </body>
 
 </html>
